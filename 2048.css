@@ -1,0 +1,65 @@
+body, h1, h2, p, div {
+	margin: 0;
+	padding: 0;
+}
+body {	
+	font-family: Arial;
+}
+.w {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	margin-top: 10px;
+}
+.newGame {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	margin: 20px;
+	border-radius: 5px;
+	background-color: #8F7A66;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-family: Arial;
+	font-weight:500;
+	cursor: pointer;
+}
+.newGame:hover {
+	opacity: 0.9;
+}
+p {
+	font-size: 25px;
+}
+.game {
+	width: 500px;
+	height: 500px;
+	background-color: #bbada0;
+	border-radius: 10px;
+	margin: 20px auto; 
+	box-sizing:border-box;
+	padding: 20px 0 0 20px;
+	overflow: hidden;
+	position: relative;
+}
+.bgBox {
+	width: 100px;
+	height: 100px;
+	background-color: #ccc0b3;
+	border-radius: 7px;
+	float: left;
+	margin: 0 20px 20px 0;
+
+}
+.number {
+	position: absolute;
+	font-size: 40px;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 7px;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
